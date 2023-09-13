@@ -2,6 +2,20 @@
 
 ---
 
+## Use StarCoder
+
+pip install transformers
+pip install torch torchvision
+pip install accelerate bitsandbytes
+pip install accelerate[torch]
+
+Edit:
+- `load_in_8bit=True`
+
+python starcoder.py
+- will download ~60 GB of model
+
+
 ### Development Notes
 
 ```bash
