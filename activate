@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]
+then
+    venv=".venv"
+else
+    venv="$1"
+fi
+
+
+echo "[+] Activating virtual environment: ${venv}"
+
+
+if [ -d "${venv}/Scripts" ]; then
+    source "${venv}/Scripts/activate"
+else
+    source "${venv}/bin/activate"
+fi

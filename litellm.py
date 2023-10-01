@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from litellm import completion
-import json
+import os
 
-# set ENV variables
-os.environ["OPENAI_API_KEY"] = "openai key"
-os.environ["COHERE_API_KEY"] = "cohere key"
+from litellm import completion
+
+os.environ["OPENAI_API_KEY"] = "<OPEN_AI_KEY>"
+os.environ["COHERE_API_KEY"] = "<COHERE_KEY>"
 
 messages = [{"content": "Hello, how are you?", "role": "user"}]
 
