@@ -68,8 +68,13 @@ RAM Required:
 pip install pyautogen
 
 pip install openplayground
+openplayground run
 
 ollama run mistral
+
+pip install -U jina
+
+pip install "ray[serve]"
 
 
 https://github.com/FlowiseAI/Flowise
@@ -94,5 +99,11 @@ https://github.com/microsoft/guidance
 
 
 https://skypilot.readthedocs.io/
+
+Later:
+https://github.com/Arize-ai/phoenix
+https://github.com/explodinggradients/ragas
+https://github.com/trypromptly/LLMStack
+
 
 ```
