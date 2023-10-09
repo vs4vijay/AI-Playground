@@ -26,24 +26,37 @@ wget -c https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF/resolve
 ---
 
 
-## Try with LLaMa.cpp
+## Try with LLaMA.cpp
 
-- Extract zip to bin/ directory 
-
+- Extract LLaMA.cpp zip to bin/ directory 
 
 ```bash
 
 ./bin/main.exe -m models/llama-2-7b-chat.Q8_0.gguf
-
-
 ```
 
 ## Try with vLLM
 
 ```bash
-pip install vllm
+pip install -U vllm
 
 python -u -m vllm.entrypoints.openai.api_server --host 0.0.0.0 --model mistralai/Mistral-7B-v0.1
+```
+
+## Try with FastChat
+
+```bash
+pip install -U fastchat
+
+python -m fastchat.serve.openai_api_server --host localhost --port 8000
+```
+
+## Try with LeptonAI
+
+```bash
+pip install -U leptonai
+
+
 ```
 
 ---
