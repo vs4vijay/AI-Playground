@@ -5,7 +5,7 @@ from ctransformers import AutoModelForCausalLM
 
 
 def main():
-    model = "Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin"
+    model = "models/Wizard-Vicuna-7B-Uncensored.Q8_0.gguf"
 
     print(f"[+] Loading model: {model}")
 

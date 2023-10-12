@@ -5,7 +5,8 @@ from ctransformers import AutoModelForCausalLM
 
 
 def main():
-    model = "../../llama-2-7b-chat.ggmlv3.q8_0.bin"
+    # model = "../../llama-2-7b-chat.ggmlv3.q8_0.bin"
+    model = "models/llama-2-7b-chat.Q8_0.gguf"
     llm = AutoModelForCausalLM.from_pretrained(model, model_type="llama")
 
     user_input = input("Ask: ")
