@@ -10,7 +10,7 @@ def main():
     print(f"[+] Loading model: {model}")
 
     llm = AutoModelForCausalLM.from_pretrained(
-        f"../../{model}",
+        model,
         model_type="llama",
         # config={
         #     'n_gqa': 8,

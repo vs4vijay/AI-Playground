@@ -21,7 +21,12 @@ python starcoder.py
 
 
 wget -c https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf
+wget -c https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q8_0.gguf
+wget -c https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q8_0.gguf
+
 wget -c https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF/resolve/main/Wizard-Vicuna-7B-Uncensored.Q8_0.gguf
+
+wget -c https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q8_0.gguf
 
 ---
 
@@ -87,7 +92,16 @@ ollama run mistral
 
 pip install -U jina
 
+Ray Serve
 pip install "ray[serve]"
+
+txtai
+
+MLC AI - https://mlc.ai/package/
+pip install --pre --force-reinstall mlc-ai-nightly mlc-chat-nightly -f https://mlc.ai/wheels
+python -m mlc_chat.rest 
+
+OpenLLM
 
 
 https://github.com/FlowiseAI/Flowise
