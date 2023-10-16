@@ -94,6 +94,7 @@ pip install -U jina
 
 Ray Serve
 pip install "ray[serve]"
+https://github.com/ray-project/ray-llm
 
 txtai
 
