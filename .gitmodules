@@ -1,0 +1,7 @@
+[submodule "anything-llm"]
+	path = anything-llm
+	url = git@github.com:Mintplex-Labs/anything-llm.git
+
+[submodule "chatbot-ui"]
+	path = chatbot-ui
+	url = git@github.com:mckaywrigley/chatbot-ui.git

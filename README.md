@@ -64,6 +64,19 @@ pip install -U leptonai
 
 ```
 
+## Try with ollama
+
+```bash
+
+echo "FROM ./models/llama-2-13b-chat.Q5_K_M.gguf" > llama-2-13b-chat.Modelfile
+
+ollama create local_llama2 -f ./llama-2-13b-chat.Modelfile
+
+ollama run local_llama2
+
+
+```
+
 ---
 
 ## Specs
