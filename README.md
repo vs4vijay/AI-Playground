@@ -70,9 +70,9 @@ pip install -U leptonai
 
 echo "FROM ./models/llama-2-13b-chat.Q5_K_M.gguf" > llama-2-13b-chat.Modelfile
 
-ollama create local_llama2 -f ./llama-2-13b-chat.Modelfile
+ollama create llama2-13b-chat -f ./llama-2-13b-chat.Modelfile
 
-ollama run local_llama2
+ollama run llama2-13b-chat
 
 
 ```
@@ -145,6 +145,9 @@ Later:
 https://github.com/Arize-ai/phoenix
 https://github.com/explodinggradients/ragas
 https://github.com/trypromptly/LLMStack
+
+
+Q5_K_M
 
 
 ```

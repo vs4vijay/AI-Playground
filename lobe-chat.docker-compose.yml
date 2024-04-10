@@ -1,11 +1,13 @@
-version: '3'
+version: "3.8"
 
 services:
   lobe-chat:
     image: lobehub/lobe-chat
+    container_name: lobe-chat
+    restart: always
     ports:
-      - 3210:3210
+      - "3210:3210"
     environment:
-      - OPENAI_API_KEY=KKK
-      - OPENAI_PROXY_URL=https://aaa.openai.azure.com
-      - ACCESS_CODE=One2Three
+      OPENAI_API_KEY: KKK
+      OPENAI_PROXY_URL: https://OOO.openai.azure.com
+      ACCESS_CODE: One2Three
