@@ -2,6 +2,12 @@
 
 ---
 
+
+
+
+
+
+
 ## Use StarCoder
 
 pip install transformers
@@ -92,6 +98,15 @@ RAM Required:
 
 ---
 
+
+## Other Tools
+
+- https://github.com/outlines-dev/outlines
+- 
+
+
+---
+
 ### Development Notes
 
 ```bash
@@ -148,6 +163,11 @@ https://github.com/trypromptly/LLMStack
 
 
 Q5_K_M
+
+
+LangServe
+
+pip install "langserve[all]"
 
 
 ```

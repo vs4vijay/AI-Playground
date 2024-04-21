@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  serge:
+    image: ghcr.io/serge-chat/serge:latest
+    volumes:
+      - weights:/usr/src/app/weights
+      - datadb:/data/db/
+    ports:
+      - 8008:8008
+
+volumes:
+  weights:
+  datadb:
