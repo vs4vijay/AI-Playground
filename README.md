@@ -23,7 +23,8 @@ python starcoder.py
 
 ## Models
 
-- LLaMa 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
+- Llama 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
+- Llama 3 Instruct - https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/tree/main
 
 
 wget -c https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf
@@ -167,8 +168,17 @@ Q5_K_M
 
 LangServe
 
-pip install "langserve[all]"
+pip install -U "langserve[all]"
+pip install -U langchain-cli
 
+
+langflow run
+
+
+flowise
+
+promptflow
+pip install promptflow promptflow-tools
 
 ```
  
