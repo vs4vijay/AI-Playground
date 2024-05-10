@@ -180,5 +180,10 @@ flowise
 promptflow
 pip install promptflow promptflow-tools
 
+
+# DSPy
+pip install dspy-ai
+
+
 ```
  
