@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ai-playground"
-version = "0.1.0"
+version = "0.1.1"
 description = "AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, Azure OpenAI, LLaMa, Mistral"
 authors = ["vs4vijay <vs4vijay@gmail.com>"]
 license = "MIT"
