@@ -2,9 +2,55 @@
 
 ---
 
+AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, Azure OpenAI, LLaMa, Mistral
 
 
 
+## Installation
+
+Pre-requisites:
+
+- Python 3.10+ and pip
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+## Running the full playground
+
+- Copy `.env.example` to `.env` and fill in the values
+
+- Run the following command to start the server
+
+```bash
+
+python ai_playground.py
+
+```
+
+---
+
+
+## Models
+
+- Llama 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
+- Llama 3 Instruct - https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/tree/main
+
+
+wget -c https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf
+wget -c https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q8_0.gguf
+wget -c https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q8_0.gguf
+
+wget -c https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF/resolve/main/Wizard-Vicuna-7B-Uncensored.Q8_0.gguf
+
+wget -c https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q8_0.gguf
+
+---
+
+# Running Individual things
 
 
 
@@ -21,19 +67,6 @@ Edit:
 python starcoder.py
 - will download ~60 GB of model
 
-## Models
-
-- Llama 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
-- Llama 3 Instruct - https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/tree/main
-
-
-wget -c https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf
-wget -c https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q8_0.gguf
-wget -c https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q8_0.gguf
-
-wget -c https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GGUF/resolve/main/Wizard-Vicuna-7B-Uncensored.Q8_0.gguf
-
-wget -c https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q8_0.gguf
 
 ---
 
