@@ -13,9 +13,11 @@ Pre-requisites:
 - Python 3.10+ and pip
 
 ```bash
+# Start virtual environment
+source ./activate
 
+# Install requirements
 pip install -r requirements.txt
-
 ```
 
 
@@ -26,9 +28,7 @@ pip install -r requirements.txt
 - Run the following command to start the server
 
 ```bash
-
 python ai_playground.py
-
 ```
 
 ---
@@ -76,7 +76,6 @@ python starcoder.py
 - Extract LLaMA.cpp zip to bin/ directory 
 
 ```bash
-
 ./bin/main.exe -m models/llama-2-7b-chat.Q8_0.gguf
 ```
 
@@ -101,19 +100,18 @@ python -m fastchat.serve.openai_api_server --host localhost --port 8000
 ```bash
 pip install -U leptonai
 
-
 ```
 
 ## Try with ollama
 
 ```bash
-
 echo "FROM ./models/llama-2-13b-chat.Q5_K_M.gguf" > llama-2-13b-chat.Modelfile
 
 ollama create llama2-13b-chat -f ./llama-2-13b-chat.Modelfile
 
 ollama run llama2-13b-chat
 
+ollama ps
 
 ```
 
@@ -132,11 +130,27 @@ RAM Required:
 
 ---
 
+## Chat UIs
+
+- OpenWebUI
+- ChatBotUI
+- OpenUI
+- AnythingLLM
+- LobeChat
+
+---
+
+## Agents
+
+- https://github.com/joaomdmoura/crewAI
+- 
+
+---
 
 ## Other Tools
 
 - https://github.com/outlines-dev/outlines
-- 
+- guidance
 
 
 ---
@@ -199,6 +213,12 @@ https://github.com/trypromptly/LLMStack
 Q5_K_M
 
 
+lazypredict
+
+mito
+
+pip install langchain-serve
+
 LangServe
 
 pip install -U "langserve[all]"
@@ -216,6 +236,53 @@ pip install promptflow promptflow-tools
 
 # DSPy
 pip install dspy-ai
+
+
+
+https://github.com/ShreyaR/guardrails
+https://github.com/guardrails-ai/guardrails
+
+
+
+guidance
+https://github.com/1rgs/jsonformer
+
+LangChain
+https://github.com/jina-ai/langchain-serve
+
+LangFlow / Flowise / LangSmith
+ChainLit
+
+promptflow
+
+
+LMQI
+https://github.com/eth-sri/lmql
+
+https://github.com/zilliztech/GPTCache
+
+https://github.com/argilla-io/argilla
+
+https://github.com/vllm-project/vllm
+
+https://github.com/TransformerOptimus/SuperAGI
+
+accelerate
+  - accelerate config
+  - accelerate env
+bitsandbytes
+wand
+https://github.com/huggingface/text-generation-inference
+
+
+ctransformers
+
+spacy
+spacy-llm
+gorilla-cli
+https://github.com/langgenius/dify
+gptcache
+
 
 
 ```
