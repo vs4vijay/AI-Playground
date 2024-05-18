@@ -220,6 +220,7 @@ Q5_K_M
 
 
 poetry export -f requirements.txt --output requirements.txt
+poetry publish --build
 
 
 lazypredict
@@ -243,8 +244,12 @@ promptflow
 pip install promptflow promptflow-tools
 
 
+PyGWalker
+
 # DSPy
 pip install dspy-ai
+
+
 
 
 
