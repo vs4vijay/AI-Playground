@@ -218,6 +218,10 @@ https://github.com/trypromptly/LLMStack
 Q5_K_M
 
 
+
+poetry export -f requirements.txt --output requirements.txt
+
+
 lazypredict
 
 mito
