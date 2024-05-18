@@ -5,8 +5,13 @@
 AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, Azure OpenAI, LLaMa, Mistral
 
 
-
 ## Installation
+
+```bash
+pip install -U ai-playground
+```
+
+### Local Installation
 
 Pre-requisites:
 
@@ -21,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 
-## Running the full playground
+### Running the full playground
 
 - Copy `.env.example` to `.env` and fill in the values
 

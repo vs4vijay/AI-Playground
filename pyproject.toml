@@ -5,6 +5,13 @@ description = "AI Playground for trying out LLM Models, Embeddings, Vector Store
 authors = ["vs4vijay <vs4vijay@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "ai_playground.py" },
+    { include = "config.py" }
+]
+include = [
+    { path = "pages" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
