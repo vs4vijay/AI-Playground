@@ -7,7 +7,7 @@ from streamlit import runtime
 from streamlit import config
 from streamlit.web import cli as stcli
 
-from config import config
+from .config import config
 
 
 def app():
