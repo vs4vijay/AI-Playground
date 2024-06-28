@@ -35,3 +35,5 @@ aip = "ai_playground:main"
 [tool.ruff]
 line-length = 120
 indent-width = 2
+
+ignore = ["E123", "E133", "W503", "F401"]
