@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit import runtime
 from streamlit.web import cli as stcli
 
-from config import config
+from .config import config
 
 
 def init_chat():
