@@ -137,8 +137,8 @@ RAM Required:
 
 ## Chat UIs
 
-- OpenWebUI
-- ChatBotUI
+- OpenWebUI - https://github.com/open-webui/open-webui
+- ChatBotUI - https://github.com/mckaywrigley/chatbot-ui
 - OpenUI
 - AnythingLLM
 - LobeChat
@@ -297,7 +297,7 @@ gorilla-cli
 https://github.com/langgenius/dify
 gptcache
 
-
+https://github.com/wandb/openui
 
 ```
  

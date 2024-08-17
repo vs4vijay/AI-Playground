@@ -25,6 +25,12 @@ def render_chat():
       st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
+    # TODO: Call the LLM API to get a response
+    response = f"Echo: {prompt}"
+    with st.chat_message("assistant"):
+      st.markdown(response)
+    st.session_state.messages.append({"role": "assistant", "content": response})
+
 
 def app():
   st.set_page_config(
