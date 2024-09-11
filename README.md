@@ -81,6 +81,14 @@ ollama serve llama3.1:7b
 
 ollama ps
 
+curl -X POST http://localhost:11434/api/generate -d '{
+    "model": "wizardlm-uncensored",
+    "prompt":"Who made Rose promise that she would never let go?"
+}'
+
+ollama run starcoder2:3b
+ollama pull nomic-embed-text
+
 ```
 
 ## Try with vLLM
@@ -141,7 +149,25 @@ RAM Required:
 - OpenUI
 - AnythingLLM
 - LobeChat
+- LibreChat - https://github.com/danny-avila/LibreChat
 - oterm
+- https://github.com/billmei/every-chatgpt-gui
+- https://github.com/Bin-Huang/chatbox
+- https://bettergpt.chat/
+
+
+---
+
+## Code Assistants / Copilots
+
+- Github Copilot
+- Continue.dev - https://github.com/continuedev/continue
+- Cursor
+- LlamaCoder
+- Zed AI
+- ClaudeDev
+- BlackBox AI
+- Tabnine AI
 
 ---
 
