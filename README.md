@@ -55,25 +55,8 @@ wget -c https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/
 
 ---
 
-# Running Individual things
+# Run Local LLM
 
-
-
-## Use StarCoder
-
-pip install transformers
-pip install torch torchvision
-pip install accelerate bitsandbytes
-pip install accelerate[torch]
-
-Edit:
-- `load_in_8bit=True`
-
-python starcoder.py
-- will download ~60 GB of model
-
-
----
 
 
 ## Try with LLaMA.cpp
@@ -82,6 +65,22 @@ python starcoder.py
 
 ```bash
 ./bin/main.exe -m models/llama-2-7b-chat.Q8_0.gguf
+```
+
+## Try with ollama
+
+```bash
+echo "FROM ./models/llama-2-13b-chat.Q5_K_M.gguf" > llama-2-13b-chat.Modelfile
+
+ollama create llama2-13b-chat -f ./llama-2-13b-chat.Modelfile
+
+ollama run llama2-13b-chat
+# OR
+ollama run llama3.1:7b
+ollama serve llama3.1:7b
+
+ollama ps
+
 ```
 
 ## Try with vLLM
@@ -107,18 +106,18 @@ pip install -U leptonai
 
 ```
 
-## Try with ollama
+## Use StarCoder
 
-```bash
-echo "FROM ./models/llama-2-13b-chat.Q5_K_M.gguf" > llama-2-13b-chat.Modelfile
+pip install transformers
+pip install torch torchvision
+pip install accelerate bitsandbytes
+pip install accelerate[torch]
 
-ollama create llama2-13b-chat -f ./llama-2-13b-chat.Modelfile
+Edit:
+- `load_in_8bit=True`
 
-ollama run llama2-13b-chat
-
-ollama ps
-
-```
+python starcoder.py
+- will download ~60 GB of model
 
 ---
 
@@ -142,11 +141,14 @@ RAM Required:
 - OpenUI
 - AnythingLLM
 - LobeChat
+- oterm
 
 ---
 
 ## Agents
 
+- aider-chat - `pipx install aider-chat`
+- metagpt - `pipx install metagpt`
 - https://github.com/joaomdmoura/crewAI
 - 
 
