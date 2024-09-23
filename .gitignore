@@ -166,3 +166,5 @@ bin/
 
 .env
 code/
+
+examples/
