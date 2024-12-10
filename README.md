@@ -327,5 +327,16 @@ gptcache
 
 https://github.com/wandb/openui
 
+
+https://github.com/deepseek-ai/DeepSeek-Coder
+
+
+https://github.com/jgravelle/AutoGroq
+
+
+https://github.com/infiniflow/ragflow
+
+Autogen Studio
+
 ```
  
