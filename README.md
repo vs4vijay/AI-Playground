@@ -145,6 +145,7 @@ RAM Required:
 ## Chat UIs
 
 - OpenWebUI - https://github.com/open-webui/open-webui
+- kotaemon - https://github.com/Cinnamon/kotaemon
 - ChatBotUI - https://github.com/mckaywrigley/chatbot-ui
 - OpenUI
 - AnythingLLM
@@ -154,6 +155,8 @@ RAM Required:
 - https://github.com/billmei/every-chatgpt-gui
 - https://github.com/Bin-Huang/chatbox
 - https://bettergpt.chat/
+- https://github.com/bionic-gpt/bionic-gpt
+- oterm - `pipx install oterm`
 
 
 ---
@@ -168,6 +171,7 @@ RAM Required:
 - ClaudeDev
 - BlackBox AI
 - Tabnine AI
+- OpenHands - https://github.com/All-Hands-AI/OpenHands
 
 ---
 
