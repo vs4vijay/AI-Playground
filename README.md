@@ -180,6 +180,9 @@ RAM Required:
 - aider-chat - `pipx install aider-chat`
 - metagpt - `pipx install metagpt`
 - https://github.com/joaomdmoura/crewAI
+- https://github.com/browser-use/web-ui
+- https://github.com/browser-use/browser-use
+- https://github.com/phidatahq/phidata
 - 
 
 ---
@@ -341,6 +344,13 @@ https://github.com/jgravelle/AutoGroq
 https://github.com/infiniflow/ragflow
 
 Autogen Studio
+
+https://docs.openlit.io/latest/introduction
+
+
+https://github.com/FujiwaraChoki/MoneyPrinterV2
+https://voidface.fly.dev/
+
 
 ```
  
