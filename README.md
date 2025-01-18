@@ -172,6 +172,7 @@ RAM Required:
 - BlackBox AI
 - Tabnine AI
 - OpenHands - https://github.com/All-Hands-AI/OpenHands
+- https://github.com/TabbyML/tabby
 
 ---
 
@@ -179,10 +180,13 @@ RAM Required:
 
 - aider-chat - `pipx install aider-chat`
 - metagpt - `pipx install metagpt`
-- https://github.com/joaomdmoura/crewAI
+- AutoGen
+- AgentScript
+- CrewAI - https://github.com/joaomdmoura/crewAI
 - https://github.com/browser-use/web-ui
 - https://github.com/browser-use/browser-use
 - https://github.com/phidatahq/phidata
+- LangGraph
 - 
 
 ---
