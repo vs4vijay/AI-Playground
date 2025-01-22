@@ -11,7 +11,7 @@ AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Sea
 pip install -U ai-playground
 ```
 
-### Local Installation
+### Installation for development
 
 Pre-requisites:
 
@@ -178,16 +178,17 @@ RAM Required:
 
 ## Agents
 
+- AutoGen
 - aider-chat - `pipx install aider-chat`
 - metagpt - `pipx install metagpt`
-- AutoGen
-- AgentScript
 - CrewAI - https://github.com/joaomdmoura/crewAI
+- AgentScript
 - https://github.com/browser-use/web-ui
 - https://github.com/browser-use/browser-use
+- https://github.com/steel-dev/steel-browser
 - https://github.com/phidatahq/phidata
 - LangGraph
-- 
+- https://github.com/elizaOS/eliza
 
 ---
 
@@ -195,7 +196,7 @@ RAM Required:
 
 - https://github.com/outlines-dev/outlines
 - guidance
-
+- https://leetgpu.com/
 
 ---
 
@@ -203,7 +204,23 @@ RAM Required:
 
 ```bash
 
+pip install uv
+uvx
+
+
+uv tool install autogenstudio
+
 pip install pyautogen
+
+uvx autogenstudio
+
+autogenstudio ui --port 8080 --appdir ./my-app
+
+uvx markitdown
+
+
+uvx --from flask python
+
 
 pip install openplayground
 openplayground run
