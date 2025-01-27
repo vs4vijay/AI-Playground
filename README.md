@@ -218,12 +218,16 @@ autogenstudio ui --port 8080 --appdir ./my-app
 
 uvx markitdown
 
+uvx --from langroid-examples chat --model ollama/qwen2.5-coder:32b
 
 uvx --from flask python
 
+dspy
 
 pip install openplayground
 openplayground run
+
+uvx --python 3.13 open-webui serve
 
 ollama run mistral
 
