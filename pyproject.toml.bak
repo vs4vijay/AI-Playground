@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "ai-playground"
+version = "0.1.1"
+description = "AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, Azure OpenAI, LLaMa, Mistral"
+authors = ["vs4vijay <vs4vijay@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "ai_playground.py" }, { include = "config.py" }]
+include = [{ path = "pages" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+streamlit = "^1.34.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.3.3"
+pytest = "8.1.1"
+coverage = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ai-playground = "ai_playground:main"
+aiplayground = "ai_playground:main"
+aip = "ai_playground:main"
+
+[tool.ruff]
+line-length = 120
+indent-width = 2
+
+# ignore = ["E123", "E133", "W503", "F401"]

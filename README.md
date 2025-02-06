@@ -189,6 +189,9 @@ RAM Required:
 - https://github.com/phidatahq/phidata
 - LangGraph
 - https://github.com/elizaOS/eliza
+- SmolAgents
+- https://github.com/steel-dev/steel-browser
+- https://github.com/lightpanda-io/browser
 
 ---
 
@@ -197,6 +200,7 @@ RAM Required:
 - https://github.com/outlines-dev/outlines
 - guidance
 - https://leetgpu.com/
+- MindsDB
 
 ---
 
@@ -319,6 +323,7 @@ https://github.com/guardrails-ai/guardrails
 
 
 guidance
+https://guidancelab.ai/
 https://github.com/1rgs/jsonformer
 
 LangChain
@@ -377,5 +382,17 @@ https://github.com/FujiwaraChoki/MoneyPrinterV2
 https://voidface.fly.dev/
 
 
+uv run ruff check
+
+uv python pin 3.13
+uv venv --python 3.11.6
+uv python install 3.12
+
+uv add --script smolagents.py smolagents
+uv run smolagents.py
+
+uv venv
+
+uvx posting
 ```
  
