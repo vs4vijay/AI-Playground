@@ -214,7 +214,7 @@ uvx
 
 uv tool install autogenstudio
 
-pip install pyautogen
+pip install ag2
 
 uvx autogenstudio
 
