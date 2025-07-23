@@ -1,0 +1,23 @@
+{
+  "servers": {    
+    "azure-mcp": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@azure/mcp@latest",
+            "server",
+            "start"
+        ]
+    },
+    
+    "github-mcp": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+
+    "context7-mcp": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+  }
+}

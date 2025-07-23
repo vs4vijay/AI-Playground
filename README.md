@@ -158,22 +158,6 @@ RAM Required:
 - https://github.com/bionic-gpt/bionic-gpt
 - oterm - `pipx install oterm`
 
-
----
-
-## Code Assistants / Copilots
-
-- Github Copilot
-- Continue.dev - https://github.com/continuedev/continue
-- Cursor
-- LlamaCoder
-- Zed AI
-- ClaudeDev
-- BlackBox AI
-- Tabnine AI
-- OpenHands - https://github.com/All-Hands-AI/OpenHands
-- https://github.com/TabbyML/tabby
-
 ---
 
 ## Agents
@@ -195,12 +179,35 @@ RAM Required:
 
 ---
 
+## Coding Models
+
+- https://github.com/QwenLM/Qwen3-Coder
+
+---
+
+## Code Assistants / Copilots
+
+- Github Copilot
+- Continue.dev - https://github.com/continuedev/continue
+- Cursor
+- LlamaCoder
+- Zed AI
+- ClaudeDev
+- BlackBox AI
+- Tabnine AI
+- OpenHands - https://github.com/All-Hands-AI/OpenHands
+- https://github.com/TabbyML/tabby
+- https://github.com/QwenLM/qwen-code
+
+---
+
 ## Other Tools
 
 - https://github.com/outlines-dev/outlines
 - guidance
 - https://leetgpu.com/
 - MindsDB
+- https://github.com/SWE-agent/SWE-ReX
 
 ---
 
