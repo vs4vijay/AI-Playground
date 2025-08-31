@@ -5,6 +5,14 @@ description = "All-in-One AI Playground for LLM, Chat, RAG, Agents, Embeddings, 
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "foundry-local-sdk>=0.3.1",
+    "openai>=1.102.0",
+    "pydantic-ai>=0.8.1",
     "ruff>=0.9.4",
     "smolagents>=1.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.4",
 ]

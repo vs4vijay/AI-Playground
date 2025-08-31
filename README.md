@@ -114,6 +114,13 @@ pip install -U leptonai
 
 ```
 
+
+## Others
+
+https://github.com/sgl-project/sglang
+
+---
+
 ## Use StarCoder
 
 pip install transformers
@@ -151,12 +158,12 @@ RAM Required:
 - AnythingLLM
 - LobeChat
 - LibreChat - https://github.com/danny-avila/LibreChat
-- oterm
+- oterm - `uvx install oterm`
 - https://github.com/billmei/every-chatgpt-gui
 - https://github.com/Bin-Huang/chatbox
 - https://bettergpt.chat/
 - https://github.com/bionic-gpt/bionic-gpt
-- oterm - `pipx install oterm`
+- aichat - https://github.com/sigoden/aichat
 
 ---
 
@@ -183,6 +190,7 @@ RAM Required:
 
 - https://github.com/QwenLM/Qwen3-Coder
 
+
 ---
 
 ## Code Assistants / Copilots
@@ -198,6 +206,31 @@ RAM Required:
 - OpenHands - https://github.com/All-Hands-AI/OpenHands
 - https://github.com/TabbyML/tabby
 - https://github.com/QwenLM/qwen-code
+- crush - https://github.com/charmbracelet/crush
+
+
+bun install -g @Qwen-Code/Qwen-code
+
+uvx aider-install
+
+uvx oterm
+
+---
+
+## AI Search Engine
+
+- Perplexica - https://github.com/ItzCrazyKns/Perplexica
+- https://github.com/InternLM/MindSearch
+- SearchGPT
+- MemFree
+
+----
+
+## Deep Research
+
+- https://github.com/zilliztech/deep-searcher
+- https://github.com/LearningCircuit/local-deep-research
+
 
 ---
 
@@ -208,6 +241,9 @@ RAM Required:
 - https://leetgpu.com/
 - MindsDB
 - https://github.com/SWE-agent/SWE-ReX
+
+FireCrawl
+Crawl4AI
 
 ---
 
