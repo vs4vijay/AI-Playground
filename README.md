@@ -251,6 +251,12 @@ Crawl4AI
 
 ```bash
 
+GLM-4.7-Flash 
+
+OpenCode
+
+Qwen3-TTS
+
 pip install uv
 uvx
 
