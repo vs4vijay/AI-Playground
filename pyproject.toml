@@ -3,9 +3,11 @@ name = "ai-playground"
 version = "0.1.2"
 description = "All-in-One AI Playground for LLM, Chat, RAG, Agents, Embeddings, Vector Stores, Semantic Search, etc."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
+    "deepagents>=0.4.11",
     "foundry-local-sdk>=0.3.1",
+    "langchain-openai>=1.1.11",
     "openai>=1.102.0",
     "pydantic-ai>=0.8.1",
     "ruff>=0.9.4",

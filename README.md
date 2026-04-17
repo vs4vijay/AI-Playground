@@ -2,7 +2,7 @@
 
 ---
 
-AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, Azure OpenAI, LLaMa, Mistral
+AI Playground for trying out LLM Models, Embeddings, Vector Stores, Semantic Search, RAG, MCP, Agents, Skills, Azure OpenAI, LLaMa, Mistral, DeepSeek, Qwen, Kimi, Z.ai GLM
 
 
 ## Installation
@@ -41,8 +41,19 @@ python ai_playground.py
 
 ## Models
 
-- Llama 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
-- Llama 3 Instruct - https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/tree/main
+Q4_K_M
+
+https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf?download=true
+
+https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf?download=true
+
+https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2/resolve/main/supergemma4-26b-uncensored-fast-v2-Q4_K_M.gguf?download=true
+
+https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf?download=true
+
+Llama 2 - https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
+
+Llama 3 Instruct - https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/tree/main
 
 
 wget -c https://huggingface.co/TheBloke/Mistral-7B-v0.1-GGUF/resolve/main/mistral-7b-v0.1.Q8_0.gguf
@@ -55,7 +66,7 @@ wget -c https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/
 
 ---
 
-# Run Local LLM
+# Inference Local LLM
 
 
 
@@ -98,6 +109,12 @@ pip install -U vllm
 
 python -u -m vllm.entrypoints.openai.api_server --host 0.0.0.0 --model mistralai/Mistral-7B-v0.1
 ```
+
+## Try with SGLang
+
+TBD
+
+## Try with Llamafile
 
 ## Try with FastChat
 
@@ -195,7 +212,10 @@ RAM Required:
 
 ## Code Assistants / Copilots
 
+- opencode-ai
 - Github Copilot
+- Qwen Code - https://github.com/QwenLM/qwen-code
+- Pi Coding Agent
 - Continue.dev - https://github.com/continuedev/continue
 - Cursor
 - LlamaCoder
@@ -205,11 +225,14 @@ RAM Required:
 - Tabnine AI
 - OpenHands - https://github.com/All-Hands-AI/OpenHands
 - https://github.com/TabbyML/tabby
-- https://github.com/QwenLM/qwen-code
 - crush - https://github.com/charmbracelet/crush
 
 
+bun install -g opencode-ai
+
 bun install -g @Qwen-Code/Qwen-code
+
+uv tool install --python 3.13 kimi-cli
 
 uvx aider-install
 
